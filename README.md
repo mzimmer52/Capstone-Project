@@ -21,7 +21,7 @@
 
 ## In the end, the machine learning model that provided the best accuracy for the dataset was a neural network. I was able to utilize Keras Tuner in order to find the parameters that were best fit to the dataset.
 
-<img src="Images/Keras_tuner"> 
+<img src="Images/Keras_tuner">
 
 ## To make sure my local machine did not have to overwork/the session did not time out, the model was run in a Google Collab notebook using Google's GPU.
 
@@ -35,4 +35,12 @@
 
 <img src="Images/importances">
 
-## Not surprisingly, the actual results for each event were the most important regarding the prediction to which class an athlete belonged to. The weight, age, and height were not a important.
+## Not surprisingly, the actual results for each event were the most important regarding the prediction to which class an athlete belonged to. The weight, age, and height were not as important.
+
+# Conclusion
+
+## In the end, I was able to build a very accurate model with the help of Keras Tuner and neural networks. Looking at the confusion matrix, a majority of the mistaken predictions were only one class off, and there were no cases such as someone ranked in the range 17,500-20,000 being ranked in the top 10 or top 50. I would recommend anyone using this dataset to place more of an importance on the actual results for each event, as opposed to an athletes height, weight, or age.
+
+# Future Research
+
+## Some interesting follow up projects could include looking at where each athlete is from, and looking at trends in strength/event scores for each region in the world. More research could also be done on why the 20.3 has the highest feature importance amongst all the other events.
